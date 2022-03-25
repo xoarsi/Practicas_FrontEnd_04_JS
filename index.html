@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link href="index.css" rel="stylesheet"/>
+    <link  rel="icon"   href="./assets/favIcon.png" type="image/png" />
+</head>
+<body>  
+    <!-- Input Pokémon -->
+    <section id="section">
+        <img id="title" src="./assets/title.png">
+            <div class="background">
+                <img id="background" src="./assets/fondoOn.png">
+                    <img id="button" src="./assets/botón.png" onclick="fetchPokemon()">
+                    <form class="search">
+                        <input type="text" id="pokeInput" name="pokeInput" placeholder="Pokémon name or ID" autocomplete="off"><br>
+                    </form>
+                    <div class="nameAndNumber">
+                        <div id="pokeName"><p style="margin-top:3%; font-size:larger; color:#4d2335">Try me!</p> </div>
+                        <div id="pokeNumber"></div>
+                    </div>
+                    <div id="pokImg">
+                        <img src="./assets/pokeball.png" alt="Pokédex" id="pokeImg">
+                    </div>
+                    <div id="pokeType"><p style="color:#dd4b8c; text-align:center">Enter the Pokémon name or ID you want to search and press the blue button.</p></div>
+                    <div class="stats">
+                        <div id="pokeHP"></div>
+                        <div id="pokeAttack"></div>
+                        <div id="pokeDefense"></div>
+                        <div id="pokeSpecialAttack"></div>
+                        <div id="pokeSpecialDefense"></div>
+                        <div id="pokeSpeed"></div>
+                    </div>
+                    <div id="pokeMove"></div>
+            </div>
+    </section>
+</body>
+<footer>
+    <script src="index.js"></script>
+</footer>
+</html>
