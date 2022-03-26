@@ -15,7 +15,7 @@ El objetivo general de la práctica fue realizar un Pokédex con HTML, CSS y Jav
 [1. Maquetación del sitio con HTML](https://github.com/xoarsi/Practicas_FrontEnd_04_JS/blob/main/index.html)<br><br>
 [2. Diseño con CSS](https://github.com/xoarsi/Practicas_FrontEnd_04_JS/blob/main/index.css)<br><br>
 [3. Código JavaScript](https://github.com/xoarsi/Practicas_FrontEnd_04_JS/blob/main/index.js)<br><br>
-[4. Bonus de despliegue de la página (responsive)](https://xoarsi.github.io/Practicas_FrontEnd_04_JS/)<br><br>
+[4. Bonus de despliegue de la página](https://xoarsi.github.io/Practicas_FrontEnd_04_JS/) Pueden verlo en celular, es responsive en formato horizontal.<br><br>
 
 ![Pokédex](https://github.com/xoarsi/Practicas_FrontEnd_04_JS/blob/main/assets/title.png)
 
